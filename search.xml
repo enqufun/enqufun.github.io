@@ -1,129 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F4%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
+    <title><![CDATA[手机刷机基本常识]]></title>
+    <url>%2F2019%2F0608%2F184913.html</url>
+    <content type="text"><![CDATA[刷机基本常识 1. bootloader BootLoader是在操作系统内核运行之前运行的一段小程序。其实Bootloader就相当于电脑的bios，通过这段小程序，进行硬件初始化，获取内存大小信息等 2. Recovery Recovery模式指的是一种可以对安卓机内部的数据或系统进行修改的模式，也叫工程模式，像是电脑上的小型winPE系统,例如twrp 3. Fastboot 在安卓手机中fastboot是一种比recovery更底层的刷机模式。就是使用USB数据线连接电脑和手机的一种线刷刷机模式，大部分第三方的Recovery刷入，或者救砖均是在Fastboot模式下进入 4. Boot boot意思是手机系统的引导，进入ROM系统先加载boot，每个ROM中均含有boot.img的文件 5 双清（wipe）： wipe即抹去，擦除的意思，为recovery模式下选项之一，它的功能就是清除手机中的各种数据，恢复出厂值。]]></content>
       <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F5%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F6%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F7%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F3%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F1%20(copy).html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F7.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F6.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F5.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F4.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F3.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F1.html</url>
-    <content type="text"><![CDATA[1&lt;!-- more --&gt;x &lt;!-- more --&gt;dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd]]></content>
-      <categories>
-        <category>ddd</category>
-        <category>dd5</category>
+        <category>android</category>
+        <category>android调试</category>
+        <category>刷机</category>
       </categories>
   </entry>
 </search>
