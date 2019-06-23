@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[修改 gitbash配色]]></title>
+    <url>%2F2019%2F0616%2F151717.html</url>
+    <content type="text"><![CDATA[win10默认的gitbash配色太费眼了所以想更换一个好看的配色，成果如下]]></content>
+      <categories>
+        <category>java_web</category>
+        <category>2.常用软件</category>
+        <category>4.版本控制PicGo gitee</category>
+        <category>git</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[linux 常用命令]]></title>
     <url>%2F2019%2F0623%2F215200.html</url>
-    <content type="text"><![CDATA[这里收集了一些常用的linux命令每一个命令我都用过，没用过我不会粘贴进来，不搞虚的 1.命令du 12345678910110.描述: (1).disk usage (2).用于显示 目录 大小1.参数: -h: kb -m： mb -s: 总大小 sum2.例子: du /home #显示home及以下目录的容量 du -sh /home #以kb的形式显示home的所占磁盘大小 2.命令df123456780.描述 (1).disk filesystem (2).用于显示Linux系统的 磁盘 利用率1.参数: -h: kb -H Kb2.例子:]]></content>
+    <content type="text"><![CDATA[这里收集了一些常用的linux命令每一个命令我都用过，没用过我不会粘贴进来，不搞虚的 1.命令du12345678910110.描述: (1).disk usage (2).用于显示 目录 大小1.参数: -h: kb -m： mb -s: 总大小 sum2.例子: du /home #显示home及以下目录的容量 du -sh /home #以kb的形式显示home的所占磁盘大小 2.命令df123456780.描述 (1).disk filesystem (2).用于显示Linux系统的 磁盘 利用率1.参数: -h: kb -H Kb2.例子:]]></content>
       <categories>
         <category>操作系统</category>
         <category>ubuntu</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[画时序图]]></title>
+    <url>%2F2019%2F0623%2F230016.html</url>
+    <content type="text"><![CDATA[1.插件名字:VSCode Sequence Diagrams 描述:画时序图 ####使用方法: (1)]]></content>
+      <categories>
+        <category>工作空间</category>
+        <category>工具</category>
+        <category>编程工具</category>
+        <category>vscode</category>
+        <category>插件</category>
       </categories>
   </entry>
   <entry>
@@ -64,17 +87,6 @@
         <category>工具</category>
         <category>编程工具</category>
         <category>vscode</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[修改 gitbash配色]]></title>
-    <url>%2F2019%2F0616%2F151717.html</url>
-    <content type="text"><![CDATA[win10默认的gitbash配色太费眼了,所以更换一个好看的配色，成果如下]]></content>
-      <categories>
-        <category>java_web</category>
-        <category>2.常用软件</category>
-        <category>4.版本控制PicGo gitee</category>
-        <category>git</category>
       </categories>
   </entry>
   <entry>
