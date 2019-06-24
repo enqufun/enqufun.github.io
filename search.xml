@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[1. 关于超时的排查]]></title>
+    <url>%2F2019%2F0622%2F102718.html</url>
+    <content type="text"><![CDATA[1.路线1 (1)前端可以设置超时时间, (2)ajax的默认timeout为0，默认是不会超时的 2.路线2 (1)nginx可以认为是一个特别的web服务器,最上层为应用层。 (2)nginx的timeout默认是60s,既维护转发连接的时间 (3)可以设置proxy_read_timeout字段，具体设置如下 (1) 具体设置如下 (1) 具体设置如下 12345678910111213141516http &#123; ## # Basic Settings ## sendfile on; tcp_nopush on; tcp_nodelay on; keepalive_timeout 65; types_hash_max_size 2048; #120 = 120s = 2min proxy_read_timeout 120 ` 3.路线4 (1)Statement Timeout (2) statement timeout用来限制statement的执行时长，timeout的值通过调用JDBC的 java.sql.Statement.setQueryTimeout(int timeout) API进行设置。不过现在开发者已经很少直接在代码中设置，而多是通过框架来进行设置。 (3)这个属于很底层设置了 4.路线5 (1)JDBC的socket timeout (2)JDBC使用socket与数据库连接，数据库并不对应用与数据库间的连接超时进行处理 (3)例如:jdbc:mysql://xxx.xx.xxx.xxx:3306/db_name?socketTimeout=60000 5.路线6 (1)操作系统的socket timeout配置 (2)Linux服务器中将socket timeout设置为了30分钟 5.路线7 (1)mysql主动断开连接的超时时间 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 参考https://blog.csdn.net/zero__007/article/details/51523297]]></content>
+      <categories>
+        <category>java_web</category>
+        <category>10.经验总结</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[proxychains4 安装教程]]></title>
     <url>%2F2019%2F0519%2F192615.html</url>
     <content type="text"><![CDATA[proxychains4是proxychains的升级版本,当proxychains代理报错的时候，可以尝试这个 1. 系统环境ubuntu 16.04 - x64 2. 简单介绍proxychains4是proxychains的升级版本,当proxychains代理报错的时候，可以尝试这个 3. 安装步骤12345678910# git clone https://github.com/rofl0r/proxychains-ng.git# cd proxychains-ng# ./configure --prefix=/usr --sysconfdir=/etc# make# make install# make install-config# vim /etc/proxychains.conf (添加代理服务器)]]></content>
@@ -76,15 +85,6 @@
       <categories>
         <category>数据库</category>
         <category>mysql</category>
-        <category>10.经验总结</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[1. 关于超时的排查]]></title>
-    <url>%2F2019%2F0622%2F102718.html</url>
-    <content type="text"><![CDATA[1.路线1 (1)前端可以设置超时时间, (2)ajax的默认timeout为0，默认是不会超时的 2.路线2 (1)nginx可以认为是一个特别的web服务器,最上层为应用层。 (2)nginx的timeout默认是60s,既维护转发连接的时间 (3)可以设置proxy_read_timeout字段，具体设置如下 12345678910111213141516http &#123; ## # Basic Settings ## sendfile on; tcp_nopush on; tcp_nodelay on; keepalive_timeout 65; types_hash_max_size 2048; #120 = 120s = 2min proxy_read_timeout 120 ` 3.路线4 (1)Statement Timeout (2) statement timeout用来限制statement的执行时长，timeout的值通过调用JDBC的 java.sql.Statement.setQueryTimeout(int timeout) API进行设置。不过现在开发者已经很少直接在代码中设置，而多是通过框架来进行设置。 (3)这个属于很底层设置了 4.路线5 (1)JDBC的socket timeout (2)JDBC使用socket与数据库连接，数据库并不对应用与数据库间的连接超时进行处理 (3)例如:jdbc:mysql://xxx.xx.xxx.xxx:3306/db_name?socketTimeout=60000 5.路线6 (1)操作系统的socket timeout配置 (2)Linux服务器中将socket timeout设置为了30分钟 5.路线7 (1)mysql主动断开连接的超时时间 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 参考https://blog.csdn.net/zero__007/article/details/51523297]]></content>
-      <categories>
-        <category>java_web</category>
         <category>10.经验总结</category>
       </categories>
   </entry>
