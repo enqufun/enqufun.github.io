@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[proxychains4 安装教程]]></title>
+    <url>%2F2019%2F0519%2F192615.html</url>
+    <content type="text"><![CDATA[proxychains4是proxychains的升级版本,当proxychains代理报错的时候，可以尝试这个 1. 系统环境ubuntu 16.04 - x64 2. 简单介绍proxychains4是proxychains的升级版本,当proxychains代理报错的时候，可以尝试这个 3. 安装步骤12345678910# git clone https://github.com/rofl0r/proxychains-ng.git# cd proxychains-ng# ./configure --prefix=/usr --sysconfdir=/etc# make# make install# make install-config# vim /etc/proxychains.conf (添加代理服务器)]]></content>
+      <categories>
+        <category>操作系统</category>
+        <category>ubuntu</category>
+        <category>常见软件安装</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[lbashdb 安装使用]]></title>
+    <url>%2F2019%2F0624%2F222250.html</url>
+    <content type="text"><![CDATA[下载地址]]></content>
+      <categories>
+        <category>操作系统</category>
+        <category>ubuntu</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[如何用vscode画时序图]]></title>
+    <url>%2F2019%2F0623%2F230016.html</url>
+    <content type="text"><![CDATA[用vscode插件画时序图比较方便，速度快如果用不习惯vscode插件，可以在线编辑,有较多主题url : https://www.websequencediagrams.com/ 1.插件名字:VSCode Sequence Diagrams 2.描述:画时序图 3.使用方法: (1)新建文件,格式为seqdiag (2)启动实时预览: 【cmd + shift + p】调出命令模式，选中Show Sequence Diagram Preview 4.常见语法(1)注释,不显示 # (2)同步调用 A-&gt;B: Hello (3)异步调用 A-&gt;&gt;B: Hello (4)回复消息 A--&gt;B: Hello (5)注释，显示 Note left of A: Left note Note right of A: right note Note over A: over note Note over A,B: over both A and B 5.一个简单例子123456789Title: 超时路线前端 -&gt; nginx : 1nginx -&gt; java后台: 2java后台 -&gt; nginx: 3java后台 -&gt; java后台: 4java后台 -&gt; java后台: 5java后台 -&gt; 数据库: 6数据库 -&gt; java后台: 7 截图出的时序图为: 6.楼主疑惑下了插件后不知道怎么修改时序图的主题，如果有人知道麻烦告知一声]]></content>
+      <categories>
+        <category>工作空间</category>
+        <category>工具</category>
+        <category>编程工具</category>
+        <category>vscode</category>
+        <category>插件</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[修改 gitbash配色]]></title>
     <url>%2F2019%2F0616%2F151717.html</url>
     <content type="text"><![CDATA[win10默认的gitbash配色太费眼了所以想更换一个好看的配色，成果如下]]></content>
@@ -21,18 +52,6 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[画时序图]]></title>
-    <url>%2F2019%2F0623%2F230016.html</url>
-    <content type="text"><![CDATA[1.插件名字:VSCode Sequence Diagrams 描述:画时序图 ####使用方法: (1)]]></content>
-      <categories>
-        <category>工作空间</category>
-        <category>工具</category>
-        <category>编程工具</category>
-        <category>vscode</category>
-        <category>插件</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[测试cpu的利用率的升到100%]]></title>
     <url>%2F2019%2F0608%2F203333.html</url>
     <content type="text"><![CDATA[简单的shell语句，让你的cpu利用率飙到100% 1for i in `seq 1 $(cat /proc/cpuinfo |grep "physical id" |wc -l)`; do dd if=/dev/zero of=/dev/null &amp; done 解释: 1.获得CPU的个数,我们将设为N1cat /proc/cpuinfo |grep "physical id" | wc -l 2.生成１到n之间的数字1seq 1 N 3.dd命令,输出到/dev/null, 实际上只占用CPU,没有IO操作1dd if=/dev/zero of=/dev/null]]></content>
@@ -45,15 +64,6 @@
     <title><![CDATA[shell脚本计算cpu使用率]]></title>
     <url>%2F2019%2F0518%2F155813.html</url>
     <content type="text"><![CDATA[shell脚本 计算 cpu使用率 123456789101112131415161718192021222324252627282930313233343536373839404142#!/bin/sh#脚本功能描述：依据/proc/stat文件获取并计算CPU使用率#CPU时间计算公式：CPU_TIME=user+system+nice+idle+iowait+irq+softirq#CPU使用率计算公式：cpu_usage=[(user_2 +sys_2+nice_2) - (user_1 + sys_1+nice_1)]/(total_2 - total_1)*100#默认时间间隔TIME_INTERVAL=5time=$(date "+%s")LAST_CPU_INFO=$(cat /proc/stat | grep -w cpu | awk '&#123;print $2,$3,$4,$5,$6,$7,$8&#125;')LAST_SYS_IDLE=$(echo $LAST_CPU_INFO | awk '&#123;print $4&#125;')LAST_USER_BUSY=$(echo $LAST_CPU_INFO | awk '&#123;print $1&#125;')LAST_SYS_BUSY=$(echo $LAST_CPU_INFO | awk '&#123;print $3&#125;')LAST_TOTAL_CPU_T=$(echo $LAST_CPU_INFO | awk '&#123;print $1+$2+$3+$4+$5+$6+$7&#125;')LAST_CPU_USAGE=$(echo $LAST_CPU_INFO | awk '&#123;print $1+$2+$3&#125;')sleep $&#123;TIME_INTERVAL&#125;NEXT_CPU_INFO=$(cat /proc/stat | grep -w cpu | awk '&#123;print $2,$3,$4,$5,$6,$7,$8&#125;')NEXT_SYS_IDLE=$(echo $NEXT_CPU_INFO | awk '&#123;print $4&#125;')NEXT_USER_BUSY=$(echo $NEXT_CPU_INFO | awk '&#123;print $1&#125;')NEXT_SYS_BUSY=$(echo $NEXT_CPU_INFO | awk '&#123;print $3&#125;')NEXT_TOTAL_CPU_T=$(echo $NEXT_CPU_INFO | awk '&#123;print $1+$2+$3+$4+$5+$6+$7&#125;')NExT_CPU_USAGE=$(echo $NEXT_CPU_INFO | awk '&#123;print $1+$2+$3&#125;')#系统空闲时间SYSTEM_IDLE=`echo $&#123;NEXT_SYS_IDLE&#125; $&#123;LAST_SYS_IDLE&#125; | awk '&#123;print $1-$2&#125;'`#系统使用时间SYSTEM_BUSY=`echo $&#123;NEXT_SYS_BUSY&#125; $&#123;LAST_SYS_BUSY&#125; | awk '&#123;print $1-$2&#125;'`#用户使用时间USER_BUSY=`echo $&#123;NEXT_USER_BUSY&#125; $&#123;LAST_USER_BUSY&#125; | awk '&#123;print $1-$2&#125;'`#用户+系统+nice时间TOTAL_BUSY=`echo $&#123;NExT_CPU_USAGE&#125; $&#123;LAST_CPU_USAGE&#125; | awk '&#123;print $1-$2&#125;'`#CPU总时间TOTAL_TIME=`echo $&#123;NEXT_TOTAL_CPU_T&#125; $&#123;LAST_TOTAL_CPU_T&#125; | awk '&#123;print $1-$2&#125;'`#CPU总时间百分比CPU_USAGE=`echo $&#123;TOTAL_BUSY&#125; $&#123;TOTAL_TIME&#125; | awk '&#123;printf "%.2f", $1/$2*100&#125;'`#用户时间百分比CPU_USER_USAGE=`echo $&#123;USER_BUSY&#125; $&#123;TOTAL_TIME&#125;|awk '&#123;printf "%.2f", $1/$2*100&#125;'`#系统时间百分比CPU_sys_USAGE=`echo $&#123;SYSTEM_BUSY&#125; $&#123;TOTAL_TIME&#125; |awk '&#123;printf "%.2f", $1/$2*100&#125;'`echo "CPU Usage:$&#123;CPU_USAGE&#125;%" $timeecho "CPU UserUsage:$&#123;CPU_USER_USAGE&#125;%" $timeecho "CPU SysUsage:$&#123;CPU_sys_USAGE&#125;%" $time]]></content>
-      <categories>
-        <category>操作系统</category>
-        <category>ubuntu</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[proxychains4 安装教程]]></title>
-    <url>%2F2019%2F0519%2F192615.html</url>
-    <content type="text"><![CDATA[proxychains4是proxychains的升级吧版本,当proxychains代理报错的时候，可以尝试这个 1. 系统环境ubuntu 16.04 - x64 2. 简单介绍proxychains4是proxychains,当proxychains代理报错的时候，可以尝试这个 3. 安装步骤12345678910# git clone https://github.com/rofl0r/proxychains-ng.git# cd proxychains-ng# ./configure --prefix=/usr --sysconfdir=/etc# make# make install# make install-config# vim /etc/proxychains.conf (添加代理服务器) ubuntu 16.04 - x64 2. 简单介绍proxychains4是proxychains,当proxychains代理报错的时候，可以尝试这个 3. 安装步骤12345678910# git clone https://github.com/rofl0r/proxychains-ng.git# cd proxychains-ng# ./configure --prefix=/usr --sysconfdir=/etc# make# make install# make install-config# vim /etc/proxychains.conf (添加代理服务器)]]></content>
       <categories>
         <category>操作系统</category>
         <category>ubuntu</category>

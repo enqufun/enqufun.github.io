@@ -1993,7 +1993,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b563a2;
+  background: #faf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3210,6 +3210,10 @@ header.post-header {
   .post-body {
     text-align: justify;
   }
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.9;
 }
 @media screen and (min-width: 1200px) {
   body {
