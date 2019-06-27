@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux 常用命令]]></title>
+    <url>%2F2019%2F0623%2F215200.html</url>
+    <content type="text"><![CDATA[这里收集了一些常用的linux命令每一个命令我都用过，没用过我不会粘贴进来，不搞虚的 1.命令: du 12345678910110.描述: (1)disk usage (2)用于显示 目录 大小1.参数: -h: kb -m： mb -s: 总大小 sum2.例子: du /home #显示home及以下目录的容量 du -sh /home #以kb的形式显示home的所占磁盘大小 2.命令: df 123456780.描述 (1)disk filesystem (2)用于显示Linux系统的 磁盘 利用率1.参数: -h: kb -H Kb2.例子: 3.命令: nc 1234567890.描述 (1)网络瑞士军刀1.参数: -l: listent -e 反弹shell2.例子: nc -l 4444 #监听外网端口 nc 192.168.146.154 4444 #连接 4.命令: sed 1234567891011121314151617181920212223242526272829303132333435363738394041420.描述 (1)sed是一个很好的文本处理工具，主要是以行为单位进行处理1.参数: -n: #silent -i: #直接修改文件的行数 a: #add 向后插 i: #insert 向前插 d: #delect p: #print s: #search 2.例子: (1)插入 [1]在1到5行之间插入 helloworld ,没有双引号不行 # sed '1,5a helloworld' file [2]向第二行添加root字符串 # sed -i '2a root' test (2)删除 [1]删除第二行 # sed '2d' file [2]搜索hello，并删除 # sed /hello/d file [3]删除整个文件的空行 # sed -i /^\s*$/d file (3)搜索替换 [1]搜索1到5行的one，替换成two # sed '1,5s/one/two/g' file # sed '1,5s#one#two#g' file [2]替换/为\/ # sed s#/#'\\\/'#g file (4)搜索打印 [1]打印时间为: 2018-12-22 04:18:26 的日志 # sed -n '/2018-12-22 04:18:26/p' rece.txt [2]打印时间区间: # sed -n '/2019-01-30 01:53:33/,/2019-01-30 01:53:34/p' logfile 显示行号 # sed -n '/2019-02-11 01:50:07/,/2019-02-11 01:50:11/&#123;=;p&#125;' logfile [3]打印(截取)n-m行 # sed -i -n 'n,mp' file 5.命令: awk 1234560.描述: (1)awk是一个非常厉害的文本处理工具，它倾向于列的处理1.参数:2.例子:]]></content>
+      <categories>
+        <category>操作系统</category>
+        <category>ubuntu</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[linux 管道]]></title>
     <url>%2F2019%2F0616%2F120100.html</url>
     <content type="text"><![CDATA[带你快速了解Linux的管道,其中包括标准输入、标准输出和错误输出 1.标准错误输入(1)标准输入的文件描述符是0,符号是&lt; (2)例子：略,暂时没碰过，碰到再补充吧 2.标准输出(1).标准输出stdout的文件描述符是1，符号&gt; (2).例子：echo 123 &gt;file 3.错误输出(1).错误输出stderr的文件描述符是2，符号2&gt; (2).例子：date -d &quot;dddd&quot; 2&gt; /dev/null 4.常用例子(1). 将标准输入和错误输出同时输出到某一个文件 # date -d &quot;dddd&quot; &gt; /dev/null 2&gt;&amp;1]]></content>
@@ -58,15 +67,6 @@
         <category>2.常用软件</category>
         <category>4.版本控制PicGo gitee</category>
         <category>git</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[linux 常用命令]]></title>
-    <url>%2F2019%2F0623%2F215200.html</url>
-    <content type="text"><![CDATA[这里收集了一些常用的linux命令每一个命令我都用过，没用过我不会粘贴进来，不搞虚的 1.命令du12345678910110.描述: (1).disk usage (2).用于显示 目录 大小1.参数: -h: kb -m： mb -s: 总大小 sum2.例子: du /home #显示home及以下目录的容量 du -sh /home #以kb的形式显示home的所占磁盘大小 2.命令df123456780.描述 (1).disk filesystem (2).用于显示Linux系统的 磁盘 利用率1.参数: -h: kb -H Kb2.例子:]]></content>
-      <categories>
-        <category>操作系统</category>
-        <category>ubuntu</category>
       </categories>
   </entry>
   <entry>
