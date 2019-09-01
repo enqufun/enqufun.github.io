@@ -5,13 +5,12 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
-
 
 
 
@@ -99,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
@@ -122,6 +121,7 @@
 
 
   <link rel="canonical" href="http://enqufun.coding.me/2019/0519/192615.html">
+
 
 
 
@@ -212,6 +212,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-相册">
+          <a href="/photos" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-camera"></i> <br>
+            
+            相册
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-top">
           <a href="/top/" rel="section">
             
@@ -273,6 +283,7 @@
 
 
 
+
  </div>
     </header>
 
@@ -331,7 +342,19 @@
             
 
             
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-06-24T07:50:50-07:00">
+                2019-06-24
+              </time>
             
           </span>
 
@@ -424,7 +447,7 @@
 <a id="more"></a>
 <h4 id="1-系统环境"><a href="#1-系统环境" class="headerlink" title="1. 系统环境"></a>1. 系统环境</h4><pre><code>ubuntu 16.04 - x64 
 </code></pre><h4 id="2-简单介绍"><a href="#2-简单介绍" class="headerlink" title="2. 简单介绍"></a>2. 简单介绍</h4><pre><code>proxychains4是proxychains的升级版本,当proxychains代理报错的时候，可以尝试这个
-</code></pre><h4 id="3-安装步骤"><a href="#3-安装步骤" class="headerlink" title="3. 安装步骤"></a>3. 安装步骤</h4><div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> git clone https://github.com/rofl0r/proxychains-ng.git</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> cd proxychains-ng</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> ./configure --prefix=/usr --sysconfdir=/etc</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> make</span><br><span class="line"><span class="meta">#</span> make install</span><br><span class="line"><span class="meta">#</span> make install-config</span><br><span class="line"><span class="meta">#</span> vim /etc/proxychains.conf (添加代理服务器)</span><br></pre></td></tr></table></figure></div>
+</code></pre><h4 id="3-安装步骤"><a href="#3-安装步骤" class="headerlink" title="3. 安装步骤"></a>3. 安装步骤</h4><div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel="SHELL"><figure class="iseeu highlight /shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> git <span class="built_in">clone</span> https://github.com/rofl0r/proxychains-ng.git</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> proxychains-ng</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> ./configure --prefix=/usr --sysconfdir=/etc</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> make</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> make install</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> make install-config</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> vim /etc/proxychains.conf (添加代理服务器)</span></span><br></pre></td></tr></table></figure></div>
       
     </div>
     
@@ -793,6 +816,8 @@
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/photoswipe.min.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/photoswipe-ui-default.min.js?v=5.1.4"></script>
 
 
 

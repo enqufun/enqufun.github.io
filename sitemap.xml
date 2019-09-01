@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://enqufun.coding.me/photos/index.html</loc>
+    
+    <lastmod>2019-08-31T15:58:12.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://enqufun.coding.me/categories/index.html</loc>
+    
+    <lastmod>2019-08-31T15:57:57.765Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://enqufun.coding.me/2019/0608/184913.html</loc>
+    
+    <lastmod>2019-08-27T13:51:44.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://enqufun.coding.me/2019/0622/200250.html</loc>
+    
+    <lastmod>2019-08-26T15:36:04.033Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://enqufun.coding.me/2019/0518/155813.html</loc>
+    
+    <lastmod>2019-08-26T14:57:27.275Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://enqufun.coding.me/journal/2019/06/30103142.html</loc>
     
     <lastmod>2019-07-24T15:47:59.626Z</lastmod>
@@ -72,20 +107,6 @@
   </url>
   
   <url>
-    <loc>http://enqufun.coding.me/2019/0518/155813.html</loc>
-    
-    <lastmod>2019-06-23T13:51:18.959Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://enqufun.coding.me/2019/0622/200250.html</loc>
-    
-    <lastmod>2019-06-23T13:36:27.126Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://enqufun.coding.me/2019/0622/094628.html</loc>
     
     <lastmod>2019-06-22T06:27:15.441Z</lastmod>
@@ -100,23 +121,9 @@
   </url>
   
   <url>
-    <loc>http://enqufun.coding.me/2019/0608/184913.html</loc>
-    
-    <lastmod>2019-06-15T17:56:35.540Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://enqufun.coding.me/top/index.html</loc>
     
     <lastmod>2019-05-09T15:40:44.862Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://enqufun.coding.me/categories/index.html</loc>
-    
-    <lastmod>2019-05-09T15:00:49.347Z</lastmod>
     
   </url>
   
