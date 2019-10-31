@@ -3,10 +3,30 @@
   <entry>
     <title><![CDATA[jdk环境变量]]></title>
     <url>%2F2019%2F1008%2F202951.html</url>
-    <content type="text"><![CDATA[java(jdk)环境变量设置 1. window操作系统JAVA_HOME G:\software\Java\jdk1.8.0_121CLASSPATH .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar; Path %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;(注意这里，需要分析是否需要连在一起还是分开另起一行) 2. linux操作系统]]></content>
+    <content type="text"><![CDATA[java(jdk)环境变量设置 1. window操作系统JAVA_HOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G:\software\Java\jdk1.8.0_121CLASSPATH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar; Path &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;(注意这里，需要分析是否需要连在一起还是分开另起一行) 2. linux操作系统]]></content>
       <categories>
         <category>java_web</category>
         <category>1.java基础</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[2.重命名文件]]></title>
+    <url>%2F2019%2F1008%2F1841290.html</url>
+    <content type="text"><![CDATA[重命名夜神模拟器中的文件名字 鼠标左键长按想要重命名的文件]]></content>
+      <categories>
+        <category>android</category>
+        <category>android基础</category>
+        <category>模拟器</category>
+        <category>夜神</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[代码格式]]></title>
+    <url>%2F2019%2F1008%2F202952.html</url>
+    <content type="text"><![CDATA[代码格式 1234567891011121314151617package com.example.demo;import lombok.extern.slf4j.Slf4j;import org.springframework.web.bind.annotation.GetMapping;import org.springframework.web.bind.annotation.RestController;@Slf4j@RestControllerpublic class TestController &#123; @GetMapping("one") public String test() &#123; log.info("欢迎关注Java知音"); return "i love java"; &#125;&#125;]]></content>
+      <categories>
+        <category>java_web</category>
+        <category>1.代码格式</category>
       </categories>
   </entry>
   <entry>
@@ -24,17 +44,6 @@
     <title><![CDATA[1.恢复出厂设置]]></title>
     <url>%2F2019%2F1008%2F190227.html</url>
     <content type="text"><![CDATA[恢复夜神模拟器的出厂设置]]></content>
-      <categories>
-        <category>android</category>
-        <category>android基础</category>
-        <category>模拟器</category>
-        <category>夜神</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[2.重命名文件]]></title>
-    <url>%2F2019%2F1008%2F1841290.html</url>
-    <content type="text"><![CDATA[重命名夜神模拟器中的文件名字 鼠标左键长按想要重命名的文件]]></content>
       <categories>
         <category>android</category>
         <category>android基础</category>
